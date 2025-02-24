@@ -24,3 +24,6 @@ setInterval(() => {
   imgcaroselfunc();
 }, 2000);
 imgcaroselfunc();
+signinbtn.addEventListener("click", () => {
+  window.location.href = "../signup/signup.html";
+});
